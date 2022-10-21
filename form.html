@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<title>Website ToolsIII</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<link rel="stylesheet" href="css/style.css">
+
+	</head>
+<body>
+    <section class="ftco-section">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-6 text-center mb-5">
+					<!--<h2 class="heading-section">Tamer Hosny</h2>-->				
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<nav class="navbar navbar-expand-lg ftco_navbar ftco-navbar-light" id="ftco-navbar">
+		    <div class="container">
+		    	<a class="navbar-brand" href="https://tamirhosny.weebly.com/">TH</a>
+		    	<div class="media order-lg-last">
+	        </div>
+
+		      <div class="media-options order-lg-last" id="ftco-navb">
+		        <ul class="mb-0 d-flex">
+		        	<a class="nav-item active"><a href="home.html" class="nav-link">Home</a></a>
+		        	<a class="nav-item"><a href="tables.html" class="nav-link">Tables</a></a>
+		        	<a class="nav-item"><a href="video.html" class="nav-link">Video</a></a>
+		        	<a class="nav-item"><a href="form.html" class="nav-link">Form</a></a>
+		        </ul>
+		      </div>
+		    </div>
+		  </nav>
+    <header>
+        <h1>If you want send a message to Tamer Hosny, you can write here.
+            Do it!
+        </h1>
+    </header>
+    <form id="email-form" name="email-form" data-name="Email Form" method="post" action="mailto:mafeh.z@gmail.com" class="form-data" aria-label="Email Form">
+        <label for="name" class="lbl-name">Name<span class="text-span-114">
+        <strong>*</strong>
+    </span>
+    </label>
+    <input type="text" class="txt-name w-input" maxlength="256" name="name" data-name="Name" placeholder="" id="name" required=""></br>
+    <br><label for="lastname" class="lbl-lastn">Lastname <span class="text-span-114">
+        <strong>*</strong>
+    </span></label>
+    <input type="text" class="txt-lastn w-input" maxlength="256" name="lastname" data-name="lastname" placeholder="" id="lastname" required=""></br>
+    <br><label for="email" class="lbl-address">Email <span class="text-span-114">
+        <strong>*</strong>
+    </span></label>
+    <input type="email" class="txt-address w-input" maxlength="256" name="email" data-name="Email" placeholder="" id="email" required=""></br>
+    <br><label for="NumberPhone" class="lbl-numberp">Phone Number</label>
+    <input type="tel" class="txt-numberp w-input" maxlength="256" name="NumberPhone" data-name="NumberPhone" placeholder="" id="NumberPhone"></br>
+    <br><label for="Country" class="lbl-country">Country/City<span class="text-span-114">
+        <strong>*</strong>
+    </span></label>
+    <input type="text" class="txt-country w-input" maxlength="256" name="Country" data-name="Country" placeholder="" id="Country" required=""></br>
+    <br><label for="Country-2" class="lbl-select1">¿What is your propurse? <span class="text-span-114">
+        <strong>*</strong>
+    </span></label>
+    <select id="Selection" name="Selection" data-name="Selection" required="" class="select1 w-select">
+        <option value="one">Signature of Tamer Hosny</option>
+        <option value="two">Meet to Tamer Hosny</option>
+        <option value="three">Contact for events</option>
+    </select></br>
+    <br><textarea id="Message" name="Message" maxlength="5000" data-name="field" placeholder="Message*" class="txtarea-message w-input"></textarea></br>
+    <input type="checkbox" name="condiciones" checked="checked" required/>I accept the conditions<br/>
+    <br>
+    <input type="submit" id="btnenviar01" value="Send" data-wait="Please wait..." data-w-id="bd56fd03-30be-9108-50f3-f3c4faf2f3ac" class="btnenviar1 btn001 w-button" required="">
+</form>
+
+<!-- Information submitted -->
+<!--<div id='success' class="success-message-2 w-form-done" tabindex="-1" role="region" aria-label="Email Form success">
+    <div class="text-block-37">Thank you! Your submission has been received!</div>
+</div>
+<div id='failed' class="w-form-fail" tabindex="-1" role="region" aria-label="Email Form failure">
+    <div>Oops! Something went wrong while submitting the form.</div>
+</div>-->
+    <script src="js/jquery.min.js"></script>
+  <script src="js/popper.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>
+
+<style type="text/css">
+    body{
+        background-color:antiquewhite;
+        color:black;
+    }
+    .form-data {
+        position: relative;
+        left: 350px;
+        top: auto;
+        width: 550px;
+        padding-bottom: 20px;
+        font-weight: 300;
+        font-size:medium;
+    }
+    
+    h1 {
+        text-align:center; 
+        margin-top:5rem;
+        margin-bottom: 5rem;
+        color:pink;
+        box-shadow: 10px 2px 10px 0;
+        text-shadow: 0.1em 0.1em black;
+    }
+    textarea {
+        position: relative;
+        left: 0rem;
+        top: auto;
+        border-radius: 0.5rem;
+    }
+    .txt-name {
+        position: relative;
+        left: 58px;
+        top: auto;
+        border-radius: 0.5rem;
+    }
+    .txt-lastn {
+        position: relative;
+        left: 30px;
+        top: auto;
+        border-radius: 0.5rem;
+    }
+    .txt-address {
+        position: relative;
+        left: 60px;
+        top: auto;
+        border-radius: 0.5rem;
+    }
+    .txt-numberp {
+        position: relative;
+        left: 5px;
+        top: auto;
+        border-radius: 0.5rem;
+    }
+    .txt-country {
+        position: relative;
+        left: 10px;
+        top: auto;
+        border-radius: 0.5rem;
+    }
+    .select1 {
+        border-radius: 0.5rem;
+    }
+    .btnenviar1 {
+        color:pink;
+        background-color:gray;
+        border-radius: 0.5rem;
+    }
+</style>
+
+
+
+
+
+
+
